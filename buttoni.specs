@@ -1,0 +1,20 @@
+
+@version = "1.0.0"
+Pod:Spec.new do |s|
+s.name = "
+@version = "1.0.0"
+Pod:Spec.new do |s|
+s.name = "button-label"
+s.summary = “sailingliu/button-label"
+s.summary = “组合了图片和文字，可用于按钮” 
+s.description = “图片在上，按钮在下，直接赋值内容即可” 
+s.homepage = “https://github.com/sailingliu/button-label” 
+s.license = { :type => ‘MIT’, :file => ‘LICENSE’ } 
+s.author = { “sailingliu” => “linfenliu@hotmail.com” } 
+s.ios.deployment_target = ‘8.0’ 
+s.source = { :git => “git@github.com:sailingliu/button-label.git“, :tag => “v#{s.version}” } 
+s.source_files = ‘button-label/buttoni&l/*/.{h,m}’ 
+s.requires_arc = true 
+s.framework = “UIKit” 
+end
+
